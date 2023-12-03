@@ -15,7 +15,7 @@ func handleErr(err error) {
 
 func main() {
 	var total int
-	file, err := os.Open("./input.txt")
+	file, err := os.Open("../input.txt")
 	handleErr(err)
 
 	defer file.Close()
